@@ -1,0 +1,29 @@
+.tbl{
+	width:90%;
+	margin: 30px auto;
+	/*border:2px solid red;*/
+}
+table{
+	margin: 0 auto;
+
+}
+.t1 tr:nth-child(even){
+background-color: grey;
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+th,td{
+	padding:15px;
+}
+th{
+	text-align: left;
+}
+.t2{
+	background-color: red;
+}
+.t3 th{
+	background-color: black;
+	color:white;
+}
